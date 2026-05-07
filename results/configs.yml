@@ -13,7 +13,7 @@ presto_config:
       ''Peat'', ''Sclerosponge'', ''Shoreline'', ''Speleothem'', ''TerrestrialSediment'',
       ''Wood'']'
   assimilate_selected_region:
-    value: '[48, 78, 109, 174]'
+    value: 'False'
   assimilate_selected_resolution:
     value: 'False'
   assimilate_selected_seasons:
@@ -23,7 +23,7 @@ presto_config:
   data_dir:
     value: /
   exp_name:
-    value: MarineOnly
+    value: FullHolocene_10yr
   localization_radius:
     value: ''
   maximum_resolution:
@@ -39,7 +39,7 @@ presto_config:
   prior_mean_always_0:
     value: 'False'
   prior_window:
-    value: '6740'
+    value: '5200'
   proxy_datasets_to_assimilate:
     value: '[''temp12k'']'
   reconstruction_type:
@@ -51,6 +51,6 @@ presto_config:
   seed_for_proxy_choice:
     value: '0'
   time_resolution:
-    value: '200'
+    value: '10'
   vars_to_reconstruct:
     value: '[''tas'']'
